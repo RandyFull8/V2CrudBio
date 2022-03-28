@@ -1,0 +1,113 @@
+
+
+a:link{
+text-decoration: none;
+}
+.dis{
+    text-align: center;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    margin-bottom: 0cm;
+    border-bottom: 1px solid #D5D9D9;
+    margin-top: 0;
+    padding-top: 0;
+}
+.social{
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+}
+.menu{
+    height: inherit;
+}
+.menu li{
+    display: inline; /*para poner la lista en horizontal*/
+}
+ol{
+    margin: 0;
+    padding: 0;
+}
+.footer{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border-top: 1px solid #D5D9D9;
+  margin-top: 0;
+  padding: 1em;
+}
+/*End Footer*/
+form{
+    text-align: center;
+}
+.tablita{
+    display: inline-block;    
+}
+/*Tablaaaaaa Estilos*/
+.tabla{
+border-collapse: collapse; /*Esta propiedad hace que parezca mas una tabla*/
+font-family: 'Quicksand', sans-serif;
+}
+table tr th{
+    border: 1px solid #D5D9D9;
+    width: 100px;
+    height: 25px;
+    color: white;
+    background-color: #00438D;
+}
+/* Para el estilo de las nuevas celdas */
+td {
+    border: 1px solid #D5D9D9;
+    width: 100px;
+    height: 25px;
+}
+.caja{
+    display: block;
+    
+}
+.caja label{
+    font-family: 'Quicksand', sans-serif;
+}
+.caja input{
+    width: 6em;
+    height: 2em;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;  
+}
+.submit{
+    width: 10em;
+    height: 3em;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    background-color: #00438D;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.submit:hover{
+    background-color: #0066d3;
+}
+.botons{
+    margin-left: 0.2cm;
+}
+.total{
+
+background-color: #bbbdbd;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: normal  ;
+color: red;
+border-radius: 45px;
+}
+.spacett{
+    margin-left: 0.5cm;
+   
+    font-weight: 900px;
+   font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.divButtons{
+  margin: 0.5cm;
+}

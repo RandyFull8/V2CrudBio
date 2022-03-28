@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CRUD dinamico con HTMLS, CSS and JS">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:600&display=swap" rel="stylesheet">
+  <title>Crud JS</title>
+</head>
+
+<body>
+
+  <header class="header" id="header">
+    <figure class="logo">
+      <img src=".\assets\logo_bioflex-01.png" height="60" alt="Logo de la pagina" />
+    </figure>
+
+    
+
+  </header>
+  <br />
+  <form onsubmit="event.preventDefault();onSubmit();" autocomplete="off">
+    <div class="caja">
+      <label for="nom">Tarima:</label> <input type="text" id="nom" placeholder="Escriba aqui" required>
+      <label class="botons" for="ape">Lote:</label> <input type="text"  id="ape" placeholder="Escriba aqui" required>
+      <label class="botons" for="pais">Peso:</label> <input type="number" id="pais" placeholder="Escriba aqui" required>
+      <label class="botons" class= "spacett" for="pais" >Total: </label> <input class="total" type="text" id="toto" placeholder="Peso Total" disabled="disabled">
+    
+    <br />
+    <input class="submit" type="submit" value="Agregar">
+    <br />
+    <br>
+    <div class="tablita">
+      <table class="tabla" id="datatable">
+        <thead>
+          <tr>
+            <th>Tarima</th>
+            <th>Lote</th>
+            <th>Peso</th>
+            <th>Opciones</th>
+          </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+        <tfoot>
+          <tr>
+
+          </tr>
+        </tfoot>
+      </table>
+      <br>
+      
+      <label class="botons" class= "spacett" for="pais" >Contador: </label> <input class="total" type="text" id="toto2" placeholder="No. Lotes" disabled="disabled">
+      </div>
+
+
+    </div>
+    <br />
+    <br />
+
+  </form>
+  <br />
+  <br />
+  <div>
+    <footer class="footer" id="footer">
+    </footer>
+    
+    <body>
+      <script type="text/javascript" src="js/crud.js"></script>
+
+      <html>
+     
+    
+      
+      
